@@ -38,7 +38,7 @@ public class Basics {
         // System.out.println("Celsius to Fahrenheit Conversion:" + (celsius * 9 / 5) + 32);
 
         
-// // Take name as input and print a greeting message for that particular name.
+ // Take name as input and print a greeting message for that particular name.
 // System.out.println("Greeting message");
 // System.out.print("Enter your name:");
 // String name = sc.nextLine();
