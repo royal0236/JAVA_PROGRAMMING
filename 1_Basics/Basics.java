@@ -44,6 +44,44 @@ public class Basics {
 // String name = sc.nextLine();
 // System.out.println("Hi " + name + " How are you ?");
 
+// Find Largest of Three Numbers
+        // System.out.println("Find the largest number");
+        // System.out.print("Enter the first number:");
+        // int first_number=sc.nextInt();
+        // System.out.print("Enter the second number:");
+        // int second_number=sc.nextInt();
+        // System.out.print("Enter the third number:");
+        // int third_number=sc.nextInt();
+        // int largest_number=Math.max(first_number , Math.max(second_number, third_number));
+        // System.out.println("The Largest Number is:" + largest_number);
+        // int smallest_number=Math.min(first_number , Math.min(second_number, third_number));
+        // System.out.println("The Smallest Number is:" + smallest_number);
+
+        // //  Swap Two Numbers.
+        // System.out.println("Swap the given numbers:");
+        // System.out.print("Enter the first number:");
+        // int first = sc.nextInt();
+        // System.out.print("Enter the second number:");
+        // int second = sc.nextInt();
+        // int temp = first;
+        // first = second;
+        // second = temp;
+        // System.out.println("First number is swaped to second number:" + first
+        //         + "\nSecond number is swapped to first number:" + second);
+ 
+  //    ASCII Value of a Character
+        //  System.out.println("ASCII value of a character");
+        //    System.out.print("Enter the character:");
+        //    char character = sc.next().charAt(0);
+        //    int ASCII_value=(int)character;
+        //  System.out.println("The ASCII value of '" + character + "' is: " +  ASCII_value);
+
+
+
+
+        
+ 
+
 
 
 
