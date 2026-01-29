@@ -313,7 +313,8 @@ public class Operators {
         //  int  unique = a ^ b ^ c; 
         //  System.out.println("Unique element is:" + unique);
          
-         // Ternary Operators       condition ? value_if_true : value_if_false;
+        // Ternary Operators       condition ? value_if_true : value_if_false;
+         
          //  Nested Ternary
         //  System.out.print("Enter your marks:");
         //  int marks = sc.nextInt();
@@ -359,7 +360,132 @@ public class Operators {
 //                (marks >= 50) ? "C Grade" : "Fail";
 // System.out.println("Final Grades: " + grades);
 // System.out.println("Marks: " + marks + "/100");
+
 // UNARY OPERATORS  ++(increment) , --(decrement)
+  
+//          int a = 10;
+//         int result = a++ + ++a; // a = 11 , + a = 11 + 1 = 12 
+//         System.out.println(result);
+//         System.out.println(a); // 12
+
+//     int b = 3;
+// System.out.println(b++); // b = 3 
+// System.out.println(b); // b = 4
+  
+// int c = 3;
+// System.out.println(++c); // c = 4
+// System.out.println(c); // c= 4
+
+// int d = 5;
+// int e = d++ + ++d; // d = 5 , = 5 , 5 + 2 = 7
+// System.out.println(e); // 12
+// System.out.println(d); // 7
+
+// int x = 2;
+// int y = x++ + ++x + x--; // 2 = (3) , + (4) , + (3)
+//  System.out.println(y); //  10
+// System.out.println(x); //  3
+
+// int z = 10;
+// System.out.println(--z + z--); // (9) , +  (9) = 18
+
+//  // Like Counter (Social Media)
+//         System.out.println("Like Counter");
+//         System.out.println("Social Media Like Counter");
+//         int  likes = sc.nextInt();
+//         System.out.println("User1 liked your post!");
+//         likes ++; // 1
+//         System.out.println("User2 liked your post!");
+//         likes ++; // 1
+//         System.out.println("User3 liked your post!");
+//         likes ++; // 1
+//         System.out.println("User4 liked your post!");
+//         likes ++;  // 1
+//         System.out.println("User5 liked your post!");
+//         likes ++; // 1
+//         System.out.println("Total likes:" + likes );
+//         if ( likes >= 5){
+//                 System.out.println("Total likes:" + likes );
+//         } 
+//         else {
+//           System.out.println("Need more likes " + likes);
+//         }
+        
+//         // Problem 2: Bus Ticket Counter 
+//         System.out.println("Bus Tickets");
+//         System.out.println("Total 10 tickets are avaliable.");
+//         int tickets=10;
+//         System.out.println(" passenger bought one ticket no:" + tickets--); // 10 = 9
+//         System.out.println(" passenger bought one ticket no:" + tickets--); // 9 = 8
+//         System.out.println(" passenger bought one ticket no:" + tickets--); // 8 = 7
+//         System.out.println("Remaining tickets are:" + tickets); // 7
+
+        // //          Elevator Floor Counter 
+        //  System.out.println("Elevator floor counter");
+        //    int floor = 0;
+        //   System.out.println("UP button pressed elevator at floor no: " + floor++); // 0 = 1
+        //   System.out.println("UP button pressed elevator at floor no: " + floor++); //  1 = 2
+        //    System.out.println("UP button pressed elevator at floor no: " + floor++); //  2 = 3
+        //    System.out.println("DOWN button pressed elevator at floor no: " + floor--); // 3 = 2
+        //    System.out.println("The final floor is : " + floor); // 2
+
+        //    //Take a number and print its negative using unary minus (-).
+        //   int n=29;
+        //   System.out.println(-n); // -29
+
+        // ASSIGNMENT OPERATORS  += , -= , *= , %= , /= , =
+        int a = 10; 
+        a += 5;
+        System.out.println(a); // 10 + 5 = 20
+        int b = 19;
+        b -= 9;
+        System.out.println(b); // 19 - 9 = 10
+        int c = 5;
+        c *= 2;
+        System.out.println(c); // 5 * 2 = 10
+        int e = 6;
+        e %= 6;
+        System.out.println(e); // 6 % 6 = 0
+        int d = 8;
+        d /= 8;
+        System.out.println(d); // 8 / 8 = 1
+       int f = 5;
+        f += f++ + ++f; //  5 (6) , + 7 = 12
+        System.out.println(f); // 5 + 12 = 17
+
+        //Basic problems of add,sub,mul,div
+        System.out.print("Enter the number:");
+        int n=sc.nextInt();
+        n +=5;
+        System.out.println("After addition, x = " + n);
+        n -=7;
+        System.out.println("After subtraction, x = " + n);
+        n *=10;
+        System.out.println("After multiplication, x = " + n);
+        n /=2;
+        System.out.println("After didvision, x = " + n);
+        n %=2;
+        System.out.println("After remainder, x = " + n);
+
+        //Input a number x. Add 10, then subtract 3, multiply by 2, divide by 4, and finally take remainder 5. Print the final result.
+         int x=sc.nextInt();
+         x +=10;
+         x -=3;
+         x *=2;
+         x /=4;
+         x %=5;
+         System.out.println(x);
+
+            
+         //Shopping Cart 
+         System.out.println("Shopping Cart ");
+         System.out.print("Enter the item price: ");
+         int price=sc.nextInt(); // 100
+         price +=50; // delivery charge // 100 + 50 = 150
+         price -=2; // festival discount // 150 - 2 = 148
+         price *=2; // because 2 items bought 148 * 2 = 296
+        System.out.println("The final price is:" + price); // 296
+
 
     
  
