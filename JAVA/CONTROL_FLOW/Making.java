@@ -303,27 +303,35 @@ public class Making {
         //                   }
  
                     //  Problem 5: ATM Language 
-                    System.out.println("ATM Language Selection");
-                    System.out.println("We have four Language. \n1.English  \n2.Hindi \n3.Telugu \n4.Tamil");
-                    System.out.print("Enter Your Prefeffered Language Number:");
-                    int lang = sc.nextInt();
-                    switch (lang) {
-                        case 1:
-                            System.out.println("Youu Have Selected English.");
-                            break;
-                        case 2:
-                            System.out.println("Youu Have Selected Hindi.");
-                            break;
-                        case 3:
-                            System.out.println("Youu Have Selected Telugu.");
-                            break;
-                         case 4:
-                             System.out.println("Youu Have Selected Tamil.");
-                             break;
-                         default:
-                             System.out.println("Invalid Input");
-                    }
-
+        //             System.out.println("ATM Language Selection");
+        //             System.out.println("We have four Language. \n1.English  \n2.Hindi \n3.Telugu \n4.Tamil");
+        //             System.out.print("Enter Your Prefeffered Language Number:");
+        //             int lang = sc.nextInt();
+        //             switch (lang) {
+        //                 case 1:
+        //                     System.out.println("Youu Have Selected English.");
+        //                     break;
+        //                 case 2:
+        //                     System.out.println("Youu Have Selected Hindi.");
+        //                     break;
+        //                 case 3:
+        //                     System.out.println("Youu Have Selected Telugu.");
+        //                     break;
+        //                  case 4:
+        //                      System.out.println("Youu Have Selected Tamil.");
+        //                      break;
+        //                  default:
+        //                      System.out.println("Invalid Input");
+        //             }
+        //                     // Alphabets Check
+        // System.out.print("Enter a Alphabet:");
+        // char alpha = sc.next().trim().charAt(0);
+        // if (alpha > 'a' && alpha < 'z') {
+        //     System.out.println("Lower Case");
+        // }
+        // else {
+        //     System.out.println("Upper Case");
+        // }
 
 
 
